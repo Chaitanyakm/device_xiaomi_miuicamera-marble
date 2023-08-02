@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=miuicamera-zeus
+DEVICE=miuicamera-cupid
 VENDOR=xiaomi
 
 # Load extract_utils and do some sanity checks

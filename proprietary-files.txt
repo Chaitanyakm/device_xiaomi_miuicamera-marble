@@ -1,6 +1,6 @@
-# All unpinned blobs below are extracted from zeus V14.0.7.0.TLBMIXM
+# All unpinned blobs below are extracted from cupid V14.0.2.0.TLCMICM
 
-product/priv-app/MiuiCamera/MiuiCamera.apk:system/priv-app/MiuiCamera/MiuiCamera.apk|962075aefbc57006f05aabf79cfdfc96e5bf0682
+product/priv-app/MiuiCamera/MiuiCamera.apk:system/priv-app/MiuiCamera/MiuiCamera.apk|4be083925aae1931c9740c687e715c937d10cdf5
 system/etc/public.libraries-xiaomi.txt
 system/lib64/libcamera_algoup_jni.xiaomi.so
 system/lib64/libcamera_mianode_jni.xiaomi.so
