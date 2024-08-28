@@ -61,6 +61,9 @@ function blob_fixup() {
         system/lib64/libmicampostproc_client.so)
             "${PATCHELF}" --remove-needed "libhidltransport.so" "${2}"
             ;;
+        system/priv-app/MiuiCamera/MiuiCamera.apk)
+            apktool_patch "${2}" "$MY_DIR/patches"
+            ;;
     esac
 }
 
