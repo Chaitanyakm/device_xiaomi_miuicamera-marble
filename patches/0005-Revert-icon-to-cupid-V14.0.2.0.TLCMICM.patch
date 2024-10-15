@@ -1,7 +1,7 @@
-From 1868252f703eb331150660ff4362bf9adb084ec3 Mon Sep 17 00:00:00 2001
+From 175870e6930b2ac7b28fdcbabd84dcd10b3f06a5 Mon Sep 17 00:00:00 2001
 From: Arian <arian.kulmer@web.de>
 Date: Tue, 23 Apr 2024 19:17:07 +0200
-Subject: [PATCH 4/4] Revert icon to cupid V14.0.2.0.TLCMICM
+Subject: [PATCH 5/7] Revert icon to cupid V14.0.2.0.TLCMICM
 
 ---
  res/mipmap-anydpi/ic_launcher_camera_cv.xml  |   6 ++++++
@@ -7467,5 +7467,5 @@ literal 0
 HcmV?d00001
 
 -- 
-2.39.2
+2.39.5
 
