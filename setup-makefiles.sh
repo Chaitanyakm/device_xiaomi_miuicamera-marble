@@ -7,7 +7,7 @@
 
 set -e
 
-DEVICE=miuicamera-cupid
+DEVICE=miuicamera-marble
 VENDOR=xiaomi
 
 # Load extract_utils and do some sanity checks
@@ -25,7 +25,7 @@ source "${HELPER}"
 
 function vendor_imports() {
     cat << EOF >> "$1"
-                "device/xiaomi/miuicamera-cupid",
+                "device/xiaomi/miuicamera-marble",
 EOF
 }
 
