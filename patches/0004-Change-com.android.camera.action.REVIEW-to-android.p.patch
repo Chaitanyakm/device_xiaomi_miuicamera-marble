@@ -1,0 +1,50 @@
+From 317db7603d301e10fe460a46d273d35e9ca66856 Mon Sep 17 00:00:00 2001
+From: Arian <arian.kulmer@web.de>
+Date: Wed, 16 Oct 2024 01:29:58 +0200
+Subject: [PATCH 4/8] Change com.android.camera.action.REVIEW to
+ android.provider.action.REVIEW
+
+This is the standard intent for review actions
+---
+ smali/d/d/a/r4.smali | 4 ++--
+ smali/d/d/a/z5.smali | 2 +-
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/smali/d/d/a/r4.smali b/smali/d/d/a/r4.smali
+index b359f481d..77e0e1358 100644
+--- a/smali/d/d/a/r4.smali
++++ b/smali/d/d/a/r4.smali
+@@ -1060,7 +1060,7 @@
+ 
+     move-result p0
+ 
+-    const-string v0, "com.android.camera.action.REVIEW"
++    const-string v0, "android.provider.action.REVIEW"
+ 
+     if-eqz p0, :cond_0
+ 
+@@ -1129,7 +1129,7 @@
+ 
+     const-string p1, "GalleryHelper"
+ 
+-    const-string v1, "gotoGallery: com.android.camera.action.REVIEW"
++    const-string v1, "gotoGallery: android.provider.action.REVIEW"
+ 
+     .line 10
+     invoke-static {p1, v1, p0}, Lcom/android/camera/log/Log;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+diff --git a/smali/d/d/a/z5.smali b/smali/d/d/a/z5.smali
+index 451fe1cdf..b5b43f066 100644
+--- a/smali/d/d/a/z5.smali
++++ b/smali/d/d/a/z5.smali
+@@ -175,7 +175,7 @@
+ 
+ .field public static d1:Ljava/lang/Integer; = null
+ 
+-.field public static final e:Ljava/lang/String; = "com.android.camera.action.REVIEW"
++.field public static final e:Ljava/lang/String; = "android.provider.action.REVIEW"
+ 
+ .field public static final e0:I = 0x7
+ 
+-- 
+2.39.5
+

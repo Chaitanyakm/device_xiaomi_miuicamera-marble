@@ -1,7 +1,7 @@
-From 996fd06f9ddc008379ecd2801d9f3d3f650f63dd Mon Sep 17 00:00:00 2001
+From 1616710aad76bf83a59263fd9f3b999251c075f2 Mon Sep 17 00:00:00 2001
 From: Arian <arian.kulmer@web.de>
 Date: Tue, 15 Oct 2024 18:58:34 +0200
-Subject: [PATCH 6/7] Read AOSP integer camera_launch_source intent in
+Subject: [PATCH 7/8] Read AOSP integer camera_launch_source intent in
  STILL_IMAGE_CAMERA case
 
 MIUI changed the camera_launch_source to be a string, but AOSP provides integers.
