@@ -1,7 +1,7 @@
 From f73bd633f5081be3e9589a07283d093f018d69e4 Mon Sep 17 00:00:00 2001
 From: Arian <arian.kulmer@web.de>
 Date: Fri, 8 Mar 2024 02:11:53 +0100
-Subject: [PATCH 2/7] Support third party galleries
+Subject: [PATCH 2/8] Support third party galleries
 
 ---
  smali/d/d/a/r4.smali                                |  9 ++-------

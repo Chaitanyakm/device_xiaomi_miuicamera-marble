@@ -1,7 +1,7 @@
-From ac906597b89183b8cd886864d89d7953d7769cac Mon Sep 17 00:00:00 2001
+From dc0b4be20e39254b63f68aad1b64925d915f7a70 Mon Sep 17 00:00:00 2001
 From: Arian <arian.kulmer@web.de>
 Date: Tue, 15 Oct 2024 19:06:16 +0200
-Subject: [PATCH 7/7] Force enable StartActivityWhenLocked
+Subject: [PATCH 8/8] Force enable StartActivityWhenLocked
 
 MIUI sends this with the intent, but on AOSP we don't get this parameter
 ---
